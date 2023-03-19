@@ -1,0 +1,38 @@
+{
+  "name": "express-sequelize-postgres",
+  "exports": {
+    ".": "./index.js"
+  },
+  "version": "1.0.0",
+  "description": "Express + Sequelize + PostgreSQL Init",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.17"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Gherta Dan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhertaDaniel/express-sequelize-postgres.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GhertaDaniel/express-sequelize-postgres/issues"
+  },
+  "homepage": "https://github.com/GhertaDaniel/express-sequelize-postgres#readme"
+}
